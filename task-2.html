@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Registration form</title>
+	<style type="text/css">
+	body{
+		background-image: url("b.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+	#container1{
+		width:25%;
+		background-color:#051019;
+		opacity:0.7;
+		padding:40px 10px;
+		margin-bottom: 50px;
+		margin-left: 335px;
+		margin-top: -10px;
+		color:white;
+	}
+	header{
+		font-family: 'Maven Pro', sans-serif;
+		color:skyblue;
+		font-size: 20px;
+	}
+	#container2{
+		width:25%;
+		background-color:#051019;
+		opacity:0.7;
+		padding:50px 10px;
+		margin-bottom: 100px;
+		margin-left: 700px;
+		margin-top: -515px;
+		color:white;
+	}
+	h1{
+		color:white;
+		padding:none;
+	}
+	.copyright{
+		color:white;
+		padding: 35px 350px;
+	}
+</style>
+</head>
+<body>
+	<center><h1>REGISTRATION / LOGIN FORM</h1></center>
+	<form id="container1">
+		<header>Register Form:</header><br><br>
+		<input type="text" name="username" placeholder="username" maxlength="40" size="40"><br><br>
+		<input type="email" name="email" placeholder="Email" maxlength="40" size="40">
+		<p>Please enter a valid email address</p>
+		<input type="password" name="password" placeholder="Password" maxlength="40" size="40">
+		<p>Minimum of 6 characters</p>
+		<input type="password" name=" Confirm password" placeholder="Confirm password" maxlength="40" size="40"><br><br>
+		<input type="radio" name="Gender">Male
+		<input type="radio" name="Gender">Female<br><br>
+		<input type="checkbox">I have read and accept terms of use<br><br>
+		<input type="submit" value="submit" style="background-color:blue; color:white;width:313px; height:30px;">
+	</form>
+	<form id="container2">
+		<header>Login Form:</header><br><br>
+		<input type="email" name="email" placeholder="Enter your Email" maxlength="40" size="40"><br><br>
+		<input type="password" name="password" placeholder="Password" maxlength="40" size="40"><br><br>
+		<input type="checkbox">Remember me<br><br><br>
+		<input type="submit" value="LOGIN" style="background-color:blue; color:white;width:313px; height:30px;">
+	</form>
+	<div class="copyright">
+	<p>&copy; 2018 Registration/Login form.All Rights Reserved.Design by<a href="#">W3layouts</a></p></div>
+ </body>
+</html>
+
